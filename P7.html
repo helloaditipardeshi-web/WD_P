@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head><title>DOM Demo</title></head>
+<body>
+ 
+  <h2>DOM Manipulation</h2>
+ 
+  <p id="msg">This is original text.</p>
+ 
+  <button onclick="changeText()">Change Text</button>
+  <button onclick="changeColor()">Change Color</button>
+  <button onclick="addItem()">Add List Item</button>
+ 
+  <ul id="myList">
+    <li>Item 1</li>
+  </ul>
+ 
+  <script>
+    function changeText() {
+      document.getElementById("msg").innerHTML = "Text changed by DOM!";
+    }
+ 
+    function changeColor() {
+      document.getElementById("msg").style.color = "red";
+    }
+ 
+    function addItem() {
+      var li   = document.createElement("li");
+      li.innerHTML = "New Item";
+      document.getElementById("myList").appendChild(li);
+    }
+  </script>
+ 
+</body>
+</html>

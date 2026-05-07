@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head><title>Calculator</title></head>
+<body>
+ 
+  <h2>Simple Calculator</h2>
+ 
+  <input type="number" id="n1" placeholder="Number 1">
+  <input type="number" id="n2" placeholder="Number 2"><br><br>
+ 
+  <button onclick="calculate('+')">+</button>
+  <button onclick="calculate('-')">-</button>
+  <button onclick="calculate('*')">*</button>
+  <button onclick="calculate('/')">/</button>
+ 
+  <p id="result"></p>
+ 
+  <script>
+    function calculate(op) {
+      var a = parseFloat(document.getElementById("n1").value);
+      var b = parseFloat(document.getElementById("n2").value);
+      var result;
+ 
+      switch (op) {
+        case "+": result = a + b; break;
+        case "-": result = a - b; break;
+        case "*": result = a * b; break;
+        case "/":
+          if (b === 0) { result = "Cannot divide by zero"; break; }
+          result = a / b; break;
+        default: result = "Invalid operator";
+      }
+ 
+      document.getElementById("result").innerHTML = "Result: " + result;
+    }
+  </script>
+ 
+</body>
+</html>
