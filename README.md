@@ -1,17 +1,30 @@
-# Web Technology Practicals
+# 🌐 Web Technology Practicals
 
-## Practical List
+Simple beginner-friendly practical programs for quick revision.
 
-| 1 | Simple HTML page using text formatting tags | practical1.html |
-| 2 | Image, hyperlink, and nested table | practical2.html |
-| 3 | Form with name, email, gender, DOB | practical3.html |
-| 4 | Internal, external, and inline CSS | practical4.html |
-| 5 | Responsive Bootstrap web page | practical5.html |
-| 6 | JavaScript form validation | practical6.html |
-| 7 | Dynamic content using DOM | practical7.html |
-| 8 | JavaScript calculator using switch-case | practical8.html |
-| 9 | PHP welcome message with date & time | practical9.php |
-| 10 | PHP POST method form | practical10.php |
-| 11 | PHP string manipulation | practical11.php |
-| 12 | PHP array program | practical12.php |
+---
+
+## 📘 Practical List
+
+### HTML
+- Practical 1 → Text Formatting Tags
+- Practical 2 → Image, Hyperlink & Nested Table
+- Practical 3 → HTML Form
+
+### CSS
+- Practical 4 → Internal, External & Inline CSS
+
+### Bootstrap
+- Practical 5 → Responsive Web Page using Bootstrap
+
+### JavaScript
+- Practical 6 → Form Validation
+- Practical 7 → DOM Manipulation
+- Practical 8 → Simple Calculator
+
+### PHP
+- Practical 9 → Welcome Message with Date & Time
+- Practical 10 → POST Method Form
+- Practical 11 → String Manipulation
+- Practical 12 → Arrays in PHP
 
