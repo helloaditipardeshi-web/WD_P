@@ -1,8 +1,6 @@
 # 🌐 Web Technology Practicals
 
-Simple beginner-friendly practical programs for quick revision.
 
----
 
 ## 📘 Practical List
 
